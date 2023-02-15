@@ -9,6 +9,7 @@ resource "oci_core_internet_gateway" "ig" {
   compartment_id = var.compartment_ocid
   display_name   = var.internet_gateway_display_name
   vcn_id = oci_core_vcn.vcn.id
+
 }
 
 resource "oci_core_route_table" "route_table_public" {

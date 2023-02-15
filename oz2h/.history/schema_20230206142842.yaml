@@ -18,6 +18,8 @@
     - region
     - compartment_ocid
     - tenancy_ocid
+    - instance_ocpus
+    - instance_shape_config_memory_in_gbs
     
   - title: Create VCN with Internet Connectivity
     visible: true  

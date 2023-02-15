@@ -8,3 +8,5 @@ variable "internet_gateway_display_name" {}
 variable "image_id" {}
 variable "fault_domain" {}
 variable "instance_display_name" {}
+variable "instance_ocpus" {default = 1}
+variable "instance_shape_config_memory_in_gbs" {default = 6}
